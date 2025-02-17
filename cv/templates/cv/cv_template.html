@@ -1,0 +1,88 @@
+{% load static %}
+<!DOCTYPE html>
+<html lang="zh">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Leile Zhang - Resume</title>
+    {% load static %}
+    <link rel="stylesheet" href="{% static '/css/style.css' %}">  
+</head>
+<body>
+    <div class="cv-container">
+        <!-- 个人信息 -->
+        <div class="header">
+            <h1>Leile Zhang</h1>
+            <p>(347) 866-7038 | leilezhang0412@gmail.com | 
+                <a href="https://linkedin.com/in/leile-zhang-740444325" target="_blank">LinkedIn</a>
+            </p>
+        </div>
+
+        <!-- 简介 -->
+        <section>
+            <h2>Summary</h2>
+            <p>Looking for a summer 2025 software engineer internship position.</p>
+            <p>Master's degree candidate in Computer Science with experience in full-stack web development.</p>
+            <p>Skills: Java, Python, React.js, SQL, JavaScript.</p>
+        </section>
+
+        <!-- 教育背景 -->
+        <section>
+            <h2>Education</h2>
+            <p><strong>New York University</strong>, New York, NY</p>
+            <p>M.S. in Computer Science (Sep 2024 - May 2026, expected)</p>
+
+            <p><strong>Jilin University</strong>, Jilin, China</p>
+            <p>B.E. in Software Engineering (Sep 2020 - Jun 2024)</p>
+        </section>
+
+        <!-- 技术技能 -->
+        <section>
+            <h2>Technical Skills</h2>
+            <ul>
+                <li><strong>Programming Languages:</strong> Java, JavaScript, Python, C/C++, MATLAB</li>
+                <li><strong>Web Development:</strong> Spring, Spring Boot, Node.js, React, Vue.js, HTML/CSS, AWS, GCP</li>
+                <li><strong>Databases & Others:</strong> MySQL, MyBatis, Liquibase, Oracle, Redis, Jenkins, Swagger</li>
+            </ul>
+        </section>
+
+        <!-- 工作经历 -->
+        <section>
+            <h2>Work Experience</h2>
+
+            <p><strong>Trustmo Info</strong>, Guangzhou, China (Java Back-end Intern, Sep 2023 - Dec 2023)</p>
+            <ul>
+                <li>Designed and implemented RESTful APIs using Spring, Spring Boot, and MyBatis-Plus.</li>
+                <li>Analyzed API interactions using Postman and coordinated with front-end colleagues.</li>
+                <li>Developed Java backend services and deployed them using Jenkins on Linux.</li>
+                <li>Created an automatic backup tool with Shell scripts and MySQL.</li>
+            </ul>
+
+            <p><strong>Bingo Software Co.</strong>, Guangzhou, China (Back-end Intern, Jul 2023 - Aug 2023)</p>
+            <ul>
+                <li>Developed a departmental project management system using Vue.js, JavaScript, and Java.</li>
+                <li>Designed lane diagrams and entity relationship diagrams (ERD) for a points management system.</li>
+                <li>Worked with Spring, Spring MVC, and MyBatis for backend development.</li>
+            </ul>
+        </section>
+
+        <!-- 项目经验 -->
+        <section>
+            <h2>Projects</h2>
+
+            <p><strong>Design and Implementation of Intelligent Text-to-Image Algorithm</strong> (Feb 2024 - Jun 2024)</p>
+            <ul>
+                <li>Improved CLIP-I score by integrating ResNet features with CLIP features.</li>
+                <li>Designed and added the CBAM module to optimize ResNet features using PyTorch.</li>
+            </ul>
+
+            <p><strong>AI Information Interaction System Based on JavaEE Architecture</strong> (June 2023)</p>
+            <ul>
+                <li>Developed an AI interactive system with session management.</li>
+                <li>Stored session data in MySQL and used JMS/MDB for evaluation result transmission.</li>
+                <li>Implemented a feature to query and retrieve past session records in a list format.</li>
+            </ul>
+        </section>
+    </div>
+</body>
+</html>
